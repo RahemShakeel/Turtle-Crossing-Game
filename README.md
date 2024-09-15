@@ -14,11 +14,14 @@ main.py
 ```
 The main script that initializes the game screen, sets up the player, car manager, and scoreboard, and handles the game loop.
 
-Player Movement: Listens for the "Up" arrow key to move the player.
-Car Management: Creates and moves cars on the screen.
-Collision Detection: Ends the game if the player collides with a car.
-Level Progression: Advances the level when the player crosses the finish line.
+- Player Movement: Listens for the "Up" arrow key to move the player.
+- Car Management: Creates and moves cars on the screen.
+- Collision Detection: Ends the game if the player collides with a car.
+- Level Progression: Advances the level when the player crosses the finish line.
+
+```bash
 player.py
+```
 Contains the Player class, which defines the player's turtle character and its behavior.
 
 ```bash
